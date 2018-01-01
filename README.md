@@ -1,2 +1,13 @@
-# brainfuck
-Swift brainfuck implementation
+# brainfuck ![](https://img.shields.io/badge/swift-4-brightgreen.svg)
+Swift brainfuck implementation, written in Swift 4.0
+
+#### Usage: 
+
+```swift
+let driver = Driver(source: ",+.")
+driver.run()
+```
+
+#### License
+MIT
+
