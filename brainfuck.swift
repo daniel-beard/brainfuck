@@ -29,7 +29,7 @@ extension String {
     }
 }
 
-class Driver {
+class BFF {
     private var source: String
     private var byteArray: [Int8]
     private let byteCount = 30_000
@@ -72,5 +72,5 @@ class Driver {
 }
 
 let input = ">++++++++[-<+++++++++>]<.>>+>-[+]++>++>+++[>[->+++<<+++>]<<]>-----.>->+++..+++.>-.<<+[>[+>+]>>]<--------------.>>.+++.------.--------.>+.>+."
-let driver = Driver(source: input)
+let driver = BFF(source: input)
 driver.run()

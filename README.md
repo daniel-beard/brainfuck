@@ -4,7 +4,7 @@ Swift brainfuck implementation, written in Swift 4.0
 #### Usage: 
 
 ```swift
-let driver = Driver(source: ",+.")
+let driver = BFF(source: ",+.")
 driver.run()
 ```
 
